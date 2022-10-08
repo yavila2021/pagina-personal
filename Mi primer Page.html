@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML> 
+<HEAD> 
+<TITLE>Mi pag.</TITLE> 
+</HEAD> 
+<link rel="shortcut icon" href="C:\Users\yesfe\Documents\Progrmacion de Internet\Mi pag\Imagenes\icono.png">
+
+<BODY background="C:\Users\yesfe\Documents\Progrmacion de Internet\Mi pag\Imagenes\a4206232b5b23615f764916e83efdbea.gif"> 
+
+</CENTER> 
+
+<H1 ALIGN="CENTER"></style><FONT FACE="Arial, Helvetica," COLOR="#FFFFFF" sans-serif"> Yesferson Enrique Avila Marquez</FONT></H1> 
+
+<div id="carousel">
+    <figure><img src="C:\Users\yesfe\Documents\Progrmacion de Internet\Mi pag\Imagenes\FAM..jpeg" alt="">
+    </figure>
+    <figure><img src="C:\Users\yesfe\Documents\Progrmacion de Internet\Mi pag\Imagenes\FAM.2.jpeg" alt="">
+    </figure>
+    <figure><img src="C:\Users\yesfe\Documents\Progrmacion de Internet\Mi pag\Imagenes\FAM.3.jpeg" alt="">
+    </figure>
+
+</div>
+
+<div id="Text">
+<P>Nombre: Yesferson Enrique Avila Marquez  <P>Edad: 29 Años<P>Carrera: Ingenieria En Sistemas<P> Numero de cuenta: 216160022<P>Sede: Peña Blanca</P> 
+</div>
+
+
+
+</CENTER> 
+</BODY> 
+</HTML> 
+
+
+<style>
+#Text {
+     width: 40px 40px; 
+     padding: 15px 100px; 
+     background-color: #ffffff;
+     margin: 350px 250px 50px 250px;
+     opacity:0.8;}
+
+
+#carousel{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+    animation-play-state: paused;
+}
+#carousel figure{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    top: 10px;
+    overflow: hidden;
+    
+}
+#carousel figure:nth-child(1){transform: rotateY(20deg) translateZ(288px);}
+#carousel figure:nth-child(2){ transform: rotateY(50deg) translateZ(288px);}
+#carousel figure:nth-child(3){ transform: rotateY(100deg) translateZ(288px);}
+
+#carousel img{
+    -webkit-filter: grayscale(1);
+    cursor: pointer;
+    transition: all .8s ease;
+    width: 50%;
+}
+#carousel img:hover{
+    -webkit-filter: grayscale(0);
+    transform: scale(1.1,1.1);
+}
+@keyframes rotation{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+
+</stayle>
